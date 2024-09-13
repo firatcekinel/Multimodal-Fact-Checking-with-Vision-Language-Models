@@ -4,10 +4,9 @@
 
 You need to download the Mocheg and Factify2 datasets from the following pages:
 
-<ul>
-<li>[Mocheg](https://github.com/VT-NLP/Mocheg) </li>
-<li>[Factify2](https://aiisc.ai/defactify2/factify.html) </li>
-</ul>
+- [Mocheg](https://github.com/VT-NLP/Mocheg)
+
+- [Factify2](https://aiisc.ai/defactify2/factify.html)
 
 ## Download Embeddings
 You need to download embeddings from [here](https://drive.google.com/drive/folders/1DtiAZfqZYm5hsHj9V0VDe2C6acxrkNM7?usp=sharing)
