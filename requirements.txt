@@ -1,0 +1,20 @@
+transformers==4.44.2
+torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+torchvision==0.16.2
+pytorch-lightning==2.0.9
+tqdm
+wandb==0.15.12
+numpy==1.26.0
+pandas
+scikit-learn==1.5.1
+accelerate==0.33.0
+evaluate==0.4.1
+trl==0.9.6
+peft==0.12.0
+bitsandbytes==0.43.3
+Pillow==10.0.1
+timm==0.9.16
+sentencepiece==0.1.99
+ninja==1.11.1.1
+flash-attn==2.5.9.post1
+scikit-learn-intelex
