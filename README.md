@@ -1,4 +1,6 @@
-# Multimodal-Fact-Checking
+# Multimodal Fact-Checking with Vision Language Models: A Probing Classifier based Solution with Embedding Strategies
+
+This study evaluates the effectiveness of Vision Language Models (VLMs) in representing and utilizing multimodal content for fact-checking. To be more specific, we investigate whether incorporating multimodal content improves performance compared to text-only models and how well VLMs utilize text and image information to enhance misinformation detection. Furthermore we propose a probing classifier based solution using VLMs. Our approach extracts embeddings from the last hidden layer of selected VLMs and inputs them into a neural probing classifier for multi-class veracity classification. Through a series of experiments on two fact-checking datasets, we demonstrate that while multimodality can enhance performance, fusing separate embeddings from text and image encoders yielded superior results compared to using VLM embeddings. Furthermore, the proposed neural classifier significantly outperformed KNN and SVM baselines in leveraging extracted embeddings, highlighting its effectiveness for multimodal fact-checking.
 
 ## Datasets
 
@@ -113,4 +115,20 @@ python baseline_classifier.py \
 --test_embedding_file "test_claim_embeddings.npy" \
 --train_evidence_file "train_text_embeddings.npy" \
 --test_evidence_file "test_text_embeddings.npy" \
+```
+
+
+## Citation
+
+Please cite the [paper](https://arxiv.org/abs/2412.05155) as follows if you find the study useful.
+```
+@misc{cekinel2024multimodalfactcheckingvisionlanguage,
+      title={Multimodal Fact-Checking with Vision Language Models: A Probing Classifier based Solution with Embedding Strategies}, 
+      author={Recep Firat Cekinel and Pinar Karagoz and Cagri Coltekin},
+      year={2024},
+      eprint={2412.05155},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.05155}, 
+}
 ```
